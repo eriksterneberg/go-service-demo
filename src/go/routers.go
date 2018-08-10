@@ -51,14 +51,14 @@ var routes = Routes{
 	Route{
 		"Index",
 		"GET",
-		"/v1/",
+		"/",
 		Index,
 	},
 
 	Route{
 		"Health",
 		strings.ToUpper("Get"),
-		"/v1/health",
+		"/health",
 		Health,
 	},
 }

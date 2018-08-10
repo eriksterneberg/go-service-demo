@@ -4,7 +4,6 @@ info:
   description: "Use this file to generate server stub"
   version: "1.0.0"
   title: "user-service"
-basePath: "/v1"
 schemes:
 - "https"
 - "http"
@@ -13,7 +12,7 @@ paths:
     get:
       tags:
       - "health"
-      summary: "Endpoint for continuous health check of service"
+      summary: "Health Check"
       description: "Endpoint for continuous health check of service"
       operationId: "health"
       produces:

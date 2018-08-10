@@ -10,7 +10,7 @@
 package main
 
 import (
-	sw "github.com/eriksterneberg/go-user-service/src/go"
+	sw "./go"
 	"log"
 	"net/http"
 )
@@ -20,6 +20,5 @@ func main() {
 
 	router := sw.NewRouter()
 
-	//http.HandleFunc("/health", sw.Health)
 	log.Fatal(http.ListenAndServe(":8080", router))
 }

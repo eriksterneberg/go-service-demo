@@ -2,7 +2,14 @@
 Todo
 
 ## Quickstart
-Todo
+Build and run service locally:
+`$ docker-compose up`
+
+In another terminal, run:
+```
+$ curl localhost:8080/health
+OK - pid 1
+```
 
 ## Development
 Todo
