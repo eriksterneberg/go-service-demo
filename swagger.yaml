@@ -1,0 +1,32 @@
+swagger: "2.0"
+info:
+  description: "Use this file to generate server stub"
+  version: "1.0.0"
+  title: "Go User Service"
+basePath: "/v1"
+
+
+schemes:
+- "https"
+- "http"
+
+paths:
+  /health:
+    get:
+      tags:
+      - "health"
+      summary: "Endpoint for continuous health check of service"
+      description: "Endpoint for continuous health check of service"
+      operationId: "health"
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "Server is healthy"
+          schema:
+            type: "string"
+
+        500:
+          description: "Server is down"
+          schema:
+            type: "string"
