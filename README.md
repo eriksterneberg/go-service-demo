@@ -25,6 +25,10 @@ Installation:
 On MacOS:
 `$ brew install swagger-codegen`
 
+Generate or update server stub from swagger.yaml:
+`$ swagger-codegen generate -i swagger.yaml -l go-server -o src/`
+
+
 ## Docker
 Todo
 

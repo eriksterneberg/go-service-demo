@@ -21,3 +21,11 @@
 #docs/*.md
 # Then explicitly reverse the ignore rule for a single file:
 #!docs/README.md
+
+
+
+# Don't change server
+main.go
+
+# Don't change any of the API stubs already generated
+go/*_api.go

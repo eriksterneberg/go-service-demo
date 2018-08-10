@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   description: "Use this file to generate server stub"
   version: "1.0.0"
-  title: "Go User Service"
+  title: "user-service"
 basePath: "/v1"
 
 
