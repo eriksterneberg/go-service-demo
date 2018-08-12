@@ -8,12 +8,11 @@ package swagger
 import (
 	"fmt"
 	"net/http"
-	"os"
 )
 
 func Health(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json; charset=UTF-8")
-	fmt.Fprintf(w, "OK - pid %d\n", os.Getpid())
+	fmt.Fprintf(w, "OK")
 
 	// Check connection to database(s)
 
